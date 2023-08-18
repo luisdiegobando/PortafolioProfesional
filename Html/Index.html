@@ -1,13 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <title>Portfolio Profesional</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'>
+<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Poppins:wght@100;300;400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap"rel="stylesheet'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css'>
     <link rel="stylesheet" href="../Css/Estilos.css" />
-    <title>Document</title>
-</head>
-<body>
-    <script src="../Js/Script.js"></script>
-</body>
+    <link rel="icon" type="image/jpg" href="../imgs/Favicon Web.png"/>
+  </head>
+  <body>
+      <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+      </div>
+      <nav class="navbar">
+        <div class="max-width">
+          <div class="logo"><a href="#"><img src="../imgs/Logotipo frelance.png" alt=""></a></div>
+          <ul class="menu">
+            <li><a href="#home" class="menu-btn"><strong>Inicio</strong></a></li>
+            <li><a href="#about" class="menu-btn"><strong>Sobre mi</strong></a></li>
+            <li><a href="#services" class="menu-btn"><strong>Mis Servicios</strong></a></li>
+            <li><a href="#projects" class="menu-btn"><strong>Mis Proyectos</strong></a></li>
+            <li><a href="#contact" class="menu-btn"><strong>Contactame</strong></a></li>
+          </ul>
+          <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+      </nav>
+
+      <section class="home" id="home">
+        <div class="max-width">
+          <div class="home-content">
+            <div class="text-1">Soy:</div>
+            <div class="text-2">Luis Diego Obando</div>
+            <div class="text-3">Y soy Desarrollador de Software</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="max-width">
+          <h2 class="title">Sobre mi</h2>
+          <div class="about-content">
+            <div class="column left">
+              <img src="../imgs/FotoPerfil.jpg" alt="Profile Image 626x626">
+            </div>
+            <div class="column right">
+                <div class="text">Soy Luis Diego y soy un desarrolldor de Software</div>
+                <p>Tegno conocimientos en varios lenguajes y soy capaz de desarrollar aplicaciones de web y de escritorio</p>
+                <br>
+                <div class="text">Mision y vision</div>
+                <p>- El enfoque principal de esta pagina consiste en dar a conocer mi persona con ciertos atributos y habilidades mostrados de una forma clara y ordenada en una pagina web.
+                </p>
+                <br>
+                <p>- Yo quiero llegar a dar a conocer mi persona,  para que en un futuro esto me ayude a conseguir mas oportunidades laborales y que la gente conozca mis proyectos y trabajos.
+                </p>
+
+              <a download="Curriculum" href="../imgs/Curriculum Espanol.pdf" target="blank">Descargar Curriculum</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="services" id="services">
+        <div class="max-width">
+          <h2 class="title">Servicios</h2>
+          <div class="serv-content">
+            <div class="card">
+              <div class="box">
+                <i class="fas fa-laptop-code"></i>
+                <div class="text">Desarrollo de aplicaciones</div>
+                <p>Puedo crear aplicaciones a gusto del cliente con sus respectivos requerimientos con tal de satisfacer las necesidades del cliente</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="box">
+                <i class="fas fa-calendar-day"></i>
+                <div class="text">Fecha Estipulada</div>
+                <p>Se garantiza al usuario una fecha de entrega del proyecto de esta manera el puede el puede estar al tanto de los avances de lo solicitado</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="box">
+                <i class="fas fa-code"></i>
+                <div class="text">Diseno de UX y UI </div>
+                <p>Puedo crear aplicaciones teniendo en cuenta el Diseno y con la mejor experiencia de usuario para el cliente, de esta manera se puede desarrollar una mejor aplicacion</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects" id="projects">
+        <div class="project-title">
+          <h1>Mis Proyectos</h1>
+        </div>
+        <div class="project-images">
+        <img src="../imgs/Licitaciones1.jpeg" alt="">
+        <img src="../imgs/Licitaciones2.jpeg" alt="">
+        <img src="../imgs/Juego.png" alt="">
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="max-width">
+          <h2 class="title">Contactame</h2>
+          <div class="contact-content">
+            <div class="column left">
+              <div class="icons">
+
+                <a href="#">
+                  <div class="row">
+                    <i class="fa-solid fa-user-large"></i>
+                    <div class="info">
+                      <div class="head">Luis Diego Obando</div>
+                    </div>
+                  </div>
+                </a>
+
+                <div class="row">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <div class="info">
+                    <div class="head"> Direccion</div>
+                    <div class="sub-title"> Costa Rica</div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <i class="fa-solid fa-envelope"></i>
+                  <div class="info">
+                    <div class="head">Luisitobando820@gmail.com</div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <i class="bi bi-translate"></i>
+                  <div class="info">
+                    <div class="head">Idiomas</div>
+                    <div class="sub-title">Espanol, ingles</div>
+                  </div>
+                </div>
+
+                <br>
+
+                <div class="social-menu">
+                  <ul>
+                    <li><a href="https://github.com/luisdiegobando"><i class="fa-brands fa-github"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/luis-diego-obando-56b403251/"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="column right">
+              <div class="text">Enviame un mensaje</div>
+              <form action="#">
+                <div class="fields">
+                  <div class="field name">
+                    <input type="text" placeholder="Nombre" required>
+                  </div>
+                  <div class="field email">
+                    <input type="email" placeholder="Email" required>
+                  </div>
+                </div>
+                <div class="field textarea">
+                  <textarea cols="30" rows="10" placeholder="Mensaje" required></textarea>
+                </div>
+                <div class="button-area">
+                  <button type="submit">Mandar mensaje</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+      </footer>
+      <script src='https://kit.fontawesome.com/3b57a2a2a7.js'></script>
+<script src='https://code.jquery.com/jquery-3.5.1.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js'></script>
+    <script src="..//Js/Script.js"></script>
+  </body>
 </html>
